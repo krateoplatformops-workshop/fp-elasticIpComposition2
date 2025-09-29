@@ -1,0 +1,14 @@
+# Default values for elasticip.
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+# Placeholder for Elastic IP specific values
+elasticIp:
+  name: my-elastic-ip
+  someOtherValue: "default-value"
