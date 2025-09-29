@@ -1,0 +1,8 @@
+apiVersion: core.krateo.io/v1alpha1
+kind: CompositionDefinition
+metadata:
+  name: elastic-ip
+spec:
+  chart:
+    url: oci://ghcr.io/kreateoplatformops-workshop/fp-elasticipcomposition2/elasticip
+    version: "0.1.0"

@@ -1,0 +1,11 @@
+# This is a placeholder file. You should replace its contents with the
+# Kubernetes Custom Resource manifest for an Aruba Cloud Elastic IP.
+# The values below are templated from your values.yaml file.
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.elasticIp.name | quote }}
+data:
+  some-key: {{ .Values.elasticIp.someOtherValue | quote }}
+  # Add other necessary data from your values.yaml

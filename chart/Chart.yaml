@@ -1,0 +1,6 @@
+apiVersion: v2
+name: elasticip
+description: A Helm chart for deploying an Aruba Cloud Elastic IP
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
